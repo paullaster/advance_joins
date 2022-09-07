@@ -48,6 +48,6 @@ FROM accounts
 )
 SELECT
 name,
-COUNT(*)
+COUNT(*) AS name_counts
 FROM double_accounts
 GROUP BY name
